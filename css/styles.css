@@ -6,6 +6,15 @@ body {
   color: #94AF9F;
 }
 
+nav {
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  background-color: #E4F9F5;
+  padding: 20px 0;
+  font-size: 1.3rem;
+}
+
 h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 5rem;
@@ -19,13 +28,13 @@ h2{
 }
 
 h3 {
-  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 2rem;
   margin: 10px auto;
 }
 
 h4 {
-  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 1.5rem;
   margin: 10px auto;
 }
@@ -43,9 +52,44 @@ a {
   color: inherit;
 }
 
+.navbar {
+  position: relative;
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  text-align: left;
+  font-family: 'Lobster';
+}
+
+.navbar img:hover {
+  border: 2px solid #94AF9F;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.navbar .right-section {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  text-align: right;
+}
+
+.navbar .right-section a {
+  display: inline-block;
+  text-align: center;    
+  padding: 2%;
+  margin: auto 2%;
+}
+.navbar .right-section a:hover {
+  background-color: #94AF9F;
+  color: #E4F9F5;
+  border-radius: 12px;
+}
+
 .top-container {
   background-color: #E4F9F5;
-  padding-top: 250px;
+  padding-top: 200px;
   position: relative;
 }
 
@@ -79,7 +123,7 @@ a {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px
+  top: 0px
 }
 
 .bottom-cloud {
